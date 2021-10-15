@@ -7,10 +7,8 @@ _onReady(testCallback, readyCallback);
 Example
 ```js
 _onReady(function () {
-    // Test
-    return $; 
+    return typeof $ === "function";
 }, function () {
-    // Executed when found
     $('#my_div').show();
 });
 ```
