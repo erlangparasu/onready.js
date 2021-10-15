@@ -1,3 +1,5 @@
+/* Erlang Parasu 2021 */
+
 function _onReady(test, callback) {
     var tmp = null;
     tmp = setInterval(function () {
