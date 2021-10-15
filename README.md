@@ -4,6 +4,11 @@
 _onReady(testCallback, readyCallback);
 ```
 
+How To Install
+```html
+<script src="https://cdn.jsdelivr.net/gh/erlangparasu/onready.js/dist/onready.js"></script>
+```
+
 Example
 ```js
 _onReady(function () {
@@ -11,9 +16,4 @@ _onReady(function () {
 }, function () {
     $('#my_div').show();
 });
-```
-
-How To Install
-```html
-<script src="https://cdn.jsdelivr.net/gh/erlangparasu/onready.js/dist/onready.js"></script>
 ```
