@@ -11,11 +11,11 @@ _onReady(function () {
     return $; 
 }, function () {
     // Executed when found
-    $('#my_element_1').show();
+    $('#my_div').show();
 });
 ```
 
-Usage
+How To Install
 ```html
 <script src="https://cdn.jsdelivr.net/gh/erlangparasu/onready.js/dist/onready.js"></script>
 ```
